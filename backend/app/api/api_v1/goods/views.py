@@ -14,9 +14,9 @@ from typing import Union, Any
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
-from api.common import deps
-from api.common.logger import logger
-from api.utils import response_code
+from app.api.common import deps
+from app.api.common.logger import logger
+from app.api.utils import response_code
 
 from .schemas import goods_schema, category_schema
 from .crud.category import curd_category

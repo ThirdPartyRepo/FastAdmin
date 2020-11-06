@@ -18,11 +18,11 @@ from fastapi.exceptions import RequestValidationError, ValidationError
 from aioredis import create_redis_pool
 
 
-from core.config import settings
-from api.api_v1.api import api_v1_router
-from api.common.logger import logger
-from api.utils.custom_exc import PostParamsError, UserTokenError, UserNotFound
-from api.utils import response_code
+from app.core.config import settings
+from app.api.api_v1.api import api_v1_router
+from app.api.common.logger import logger
+from app.api.utils.custom_exc import PostParamsError, UserTokenError, UserNotFound
+from app.api.utils import response_code
 
 
 def create_app():

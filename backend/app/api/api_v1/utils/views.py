@@ -24,10 +24,10 @@ from typing import Union, Any
 from tempfile import NamedTemporaryFile
 from fastapi import APIRouter, Depends, File, UploadFile
 
-from api.common import deps
-from api.common.logger import logger
-from core.config import settings
-from api.utils import response_code
+from app.api.common import deps
+from app.api.common.logger import logger
+from app.core.config import settings
+from app.api.utils import response_code
 
 router = APIRouter()
 

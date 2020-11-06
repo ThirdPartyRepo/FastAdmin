@@ -13,14 +13,14 @@ from typing import Any, Union
 
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends
-from core import security
+from app.core import security
 
-from api.common import deps
-from api.utils import response_code
-from api.common.logger import logger
+from app.api.common import deps
+from app.api.utils import response_code
+from app.api.common.logger import logger
 
-from api.models import auth
-from core.config import settings
+from app.api.models import auth
+from app.core.config import settings
 
 from .schemas import user_schema, token_schema
 

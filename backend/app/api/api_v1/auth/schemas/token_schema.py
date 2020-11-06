@@ -12,7 +12,7 @@
 from typing import Optional
 from pydantic import BaseModel
 
-from api.common.schemas_base import RespBase
+from app.api.common.schemas_base import RespBase
 
 
 class Token(BaseModel):

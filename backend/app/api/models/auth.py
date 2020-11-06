@@ -13,7 +13,7 @@
 from datetime import datetime
 
 from sqlalchemy import Boolean, Column, Integer, String, VARCHAR, BIGINT, SmallInteger, DateTime
-from api.db.base_class import Base, gen_uuid
+from app.api.db.base_class import Base, gen_uuid
 
 
 class AdminUser(Base):

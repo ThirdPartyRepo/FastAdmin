@@ -14,7 +14,7 @@ from typing import Optional, Union
 from pydantic import BaseModel, EmailStr, AnyHttpUrl
 
 
-from api.common.schemas_base import RespBase
+from app.api.common.schemas_base import RespBase
 
 
 # Shared properties

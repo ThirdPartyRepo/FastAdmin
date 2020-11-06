@@ -12,8 +12,8 @@
 from typing import Optional
 from sqlalchemy.orm import Session
 
-from api.common.curd_base import CRUDBase
-from api.models.auth import AdminRole
+from app.api.common.curd_base import CRUDBase
+from app.api.models.auth import AdminRole
 from ..schemas import role_schema
 
 

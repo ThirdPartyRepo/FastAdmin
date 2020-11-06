@@ -13,9 +13,9 @@ from typing import Optional
 
 from sqlalchemy.orm import Session
 
-from core.security import get_password_hash, verify_password
-from api.common.curd_base import CRUDBase
-from api.models.auth import AdminUser
+from app.core.security import get_password_hash, verify_password
+from app.api.common.curd_base import CRUDBase
+from app.api.models.auth import AdminUser
 from ..schemas import user_schema
 
 

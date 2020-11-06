@@ -15,8 +15,8 @@ from pydantic import conint
 from sqlalchemy import func, or_
 from sqlalchemy.orm import Session
 
-from api.common.curd_base import CRUDBase
-from api.models.goods import MallCategory
+from app.api.common.curd_base import CRUDBase
+from app.api.models.goods import MallCategory
 from ..schemas import category_schema
 
 

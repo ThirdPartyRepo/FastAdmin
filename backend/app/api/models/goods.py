@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/iamdarcy/hioshop-server/master/hiolabsDB.sql
 """
 
 from sqlalchemy import Column, Integer, VARCHAR, SmallInteger, DECIMAL, TEXT
-from api.db.base_class import Base, gen_uuid
+from app.api.db.base_class import Base, gen_uuid
 
 
 class MallGoods(Base):

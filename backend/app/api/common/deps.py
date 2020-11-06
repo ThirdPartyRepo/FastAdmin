@@ -7,14 +7,14 @@ from pydantic import ValidationError
 from sqlalchemy.orm import Session
 
 # from api import models, crud, schemas
-from core import security
-from core.config import settings
-from api.db.session import SessionLocal
-from api.models.auth import AdminUser
-from api.api_v1.auth.schemas import token_schema
-from api.api_v1.auth.crud import curd_user
+from app.core import security
+from app.core.config import settings
+from app.api.db.session import SessionLocal
+from app.api.models.auth import AdminUser
+from app.api.api_v1.auth.schemas import token_schema
+from app.api.api_v1.auth.crud import curd_user
 
-from api.utils import custom_exc
+from app.api.utils import custom_exc
 
 
 def get_db() -> Generator:
